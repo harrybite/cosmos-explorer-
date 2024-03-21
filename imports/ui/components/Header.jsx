@@ -181,17 +181,17 @@ export default class Header extends Component {
       return (
         <Navbar color="primary" dark expand="lg" fixed="top" id="header">
           <NavbarBrand tag={Link} to="/">
-            <img src="/img/fetch-logo.svg" className="img-fluid logo" />
+            {/* <img src="/img/fetch-logo.svg" className="img-fluid logo" /> */}
             {' '}
             <span className="d-none d-xl-inline-block">
-              <T>Block explorer</T>
+              <T>Discovery explorer</T>
 &nbsp;
             </span>
           </NavbarBrand>
           <UncontrolledDropdown className="d-inline text-nowrap">
-            <DropdownToggle caret={(this.state.networks !== '')} tag="span" size="sm" id="network-nav">
+            {/* <DropdownToggle caret={(this.state.networks !== '')} tag="span" size="sm" id="network-nav">
               {Meteor.settings.public.chainId}
-            </DropdownToggle>
+            </DropdownToggle> */}
             {this.state.networks}
           </UncontrolledDropdown>
           <SearchBar id="header-search" history={this.props.history} />
@@ -223,7 +223,7 @@ export default class Header extends Component {
                   <T>navbar.votingPower</T>
                 </NavLink>
               </NavItem>
-              <NavItem id="user-acconut-icon">
+              {/* <NavItem id="user-acconut-icon">
                 {!signedInAddress ? (
                   <Button className="sign-in-btn" color="link" size="lg" onClick={() => { this.setState({ isSignInOpen: true }); }}>
                     <i className="material-icons">vpn_key</i>
@@ -268,7 +268,7 @@ export default class Header extends Component {
                     </span>
                   )}
                 <LedgerModal isOpen={this.state.isSignInOpen} toggle={this.toggleSignIn} refreshApp={this.props.refreshApp} handleLoginConfirmed={this.shouldLogin() ? this.handleLoginConfirmed : null} />
-              </NavItem>
+              </NavItem> */}
               <NavItem>
                 <UncontrolledDropdown inNavbar>
                   <DropdownToggle nav caret>

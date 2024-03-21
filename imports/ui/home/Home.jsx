@@ -16,7 +16,7 @@ export default class Home extends Component {
   render() {
     return <div id="home">
       <Helmet>
-        <title>Fetch.ai | Cosmos Explorer</title>
+        <title>Discovery Explorer</title>
       </Helmet>
       <ChainInfo />
       <Consensus />
