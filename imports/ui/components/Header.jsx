@@ -176,12 +176,13 @@ export default class Header extends Component {
     }
 
 
+
     render() {
       const signedInAddress = getUser();
       return (
         <Navbar color="primary" dark expand="lg" fixed="top" id="header">
           <NavbarBrand tag={Link} to="/">
-            {/* <img src="/img/fetch-logo.svg" className="img-fluid logo" /> */}
+            <img src="/img/logo-v3.png" className="img-fluid logo" />
             {' '}
             <span className="d-none d-xl-inline-block">
               <T>Discovery explorer</T>

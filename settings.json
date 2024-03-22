@@ -3,7 +3,7 @@
         "chainName": "SovID",
         "chainId": "discoverynet-chain-1",
         "gtm": "",
-        "genesisTime": "2024-03-01T05:42:32.46131922Z",
+        "genesisTime": "2024-03-22T07:04:07.4942634012",
         "slashingWindow": 10000,
         "uptimeWindow": 250,
         "initialPageSize": 30,
