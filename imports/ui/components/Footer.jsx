@@ -20,13 +20,8 @@ export default class Footer extends React.Component {
         <Navbar color="light" light expand="md" fixed="bottom" id="footer" className="d-none d-md-flex">
           <span className="text-muted">
             <a href="https://raw.githubusercontent.com/fetchai/big-dipper-block-explorer/master/LICENSE" target="_blank">
-              <T>{"(c) 2024 Sovereign-T Protocol | All Rights Reserved"}</T>
+              <T>&copy; 2024 Sovereign-T Protocol | All Rights Reserved</T>
             </a>
-            {' '}
-            &copy;2018-
-            {moment().format('YYYY')}
-            .
-            {' '}
           </span>
           <Nav className="ml-auto" navbar>
             <NavItem>
