@@ -1,9 +1,9 @@
 {
     "public": {
-        "chainName": "SovID",
-        "chainId": "discoverynet-chain-1",
+        "chainName": "IdentityForge",
+        "chainId": "sov-t-1",
         "gtm": "",
-        "genesisTime": "2024-03-22T07:04:07.4942634012",
+        "genesisTime": "2024-05-02T03:25:09.415350946Z",
         "slashingWindow": 10000,
         "uptimeWindow": 250,
         "initialPageSize": 30,
@@ -14,12 +14,12 @@
         "bech32PrefixValPub": "cosmosvaloperpub",
         "bech32PrefixConsAddr": "cosmosvalcons",
         "bech32PrefixConsPub": "cosmosvalconspub",
-        "bondDenom": "stake",
+        "bondDenom": "soid",
         "powerReduction": 1000000,
         "coins": [
             {
-                "denom": "stake",
-                "displayName": "ATOM",
+                "denom": "soid",
+                "displayName": "SovID",
                 "fraction": 1000000
             }
         ],
@@ -41,8 +41,8 @@
         "banners": false
     },
     "remote": {
-        "rpc": "https://explorer-rpcapi.sovereignty.one",
-        "api": "https://explorer-restapi.sovereignty.one"
+        "rpc": "http://146.190.5.120:26657",
+        "api": "http://146.190.5.120:1317"
     },
     "debug": {
         "startTimer": true
